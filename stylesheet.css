@@ -186,6 +186,12 @@ p.header {
 	color: #000;
 }
 
+.nav-bg-color, .card-bg-color, .front-bg-color, .middle-bg-color, .btn-bg-color, .nav-fg-color, .card-fg-color, .front-fg-color, .btn-fg-color {
+	transition-property: all;
+	transition-duration: .5s;
+}
+
+
 /* Footer styling */
 .footer {
 
