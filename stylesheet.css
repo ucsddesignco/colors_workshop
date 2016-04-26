@@ -1,5 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
+.page input {
+  background: transparent;
+  border: none;
+}
+.page input:focus{
+  outline: none;
+}
+.page input.h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  line-height: 77px;
+}
 
 /* Stylesheet for splash page */
 html, body, h1, h2, h3, h4, h5, h6 {
@@ -72,7 +90,7 @@ body {
 /* Frontpage styling */
 .page-front {
 	color: white;
-/*	background: linear-gradient(rgba(0, 0, 0, 0), 
+/*	background: linear-gradient(rgba(0, 0, 0, 0),
 								rgba(0, 0, 0, 1)), url(rengar.jpg);*/
 	background-size: cover;
 }
