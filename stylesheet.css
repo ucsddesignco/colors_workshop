@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+
+/* Stylesheet for splash page */
+html, body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	font-weight: 200;
+}
+body {
+	margin-left: 300px;
+}
+p {
+	font-weight: 300;
+}
+/*# FFBD4C*/
+
+/* Navigation bar */
+.nav {
+	width: 100%;
+	line-height: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+
+}
+.nav-inner {
+	max-width: 1000px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	flex: 1;
+	justify-content: space-between;
+}
+.nav .nav-left, .nav .nav-right {
+}
+.nav .nav-right {
+}
+.nav .nav-left>img {
+	height: 48px;
+}
+.nav .nav-left>* {
+	display: inline-block;
+}
+.nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.nav ul>li {
+	padding: 10px;
+	display: inline-block;
+}
+
+/* Specifies default page properties */
+body {
+	/*padding-top: 40px;*/
+}
+.container {
+	/*background-color: #000;*/
+	background-color: #666;
+}
+.page {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+/* Frontpage styling */
+.page-front {
+	color: white;
+/*	background: linear-gradient(rgba(0, 0, 0, 0), 
+								rgba(0, 0, 0, 1)), url(rengar.jpg);*/
+	background-size: cover;
+}
+.front-wrap {
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+img#front-tsm-logo {
+	width: 180px;
+}
+h1.title {
+	text-transform: uppercase;
+	margin: 10px;
+	font-size: 48px;
+	line-height: 1.5;
+}
+p.header {
+	font-size: 18px;
+	line-height: 1.4;
+	margin-bottom: 30px;
+	max-width: 500px;
+	margin: auto;
+}
+.front-buttons {
+	margin-top: 30px;
+}
+.btn {
+	display: inline-block;
+	border-radius: 10px;
+	background-color: #444;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 22px;
+	padding-right: 22px;
+	min-width: 100px;
+	margin: 7px;
+	color: white;
+}
+.btn p {
+	font-size: 20px;
+	margin: 0;
+	margin-top: 2px;
+}
+.middle-top {
+	position: absolute;
+	height: 50px;
+	width: 120%;
+	margin-left: -10%;
+}
+
+.middle {
+	display: flex;
+	justify-content: space-around;
+	height: 600px;
+	position: relative;
+	padding: 10%;
+	padding-top: 0;
+
+}
+.middle>.card {
+	margin-top: -70px;
+	background-color: #fff;
+	max-width: 28%;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	max-height: 350px;
+}
+.card>img {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.card>p {
+	padding: 20px;
+}
+
+.sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	width: 300px;
+	z-index: 999;
+	box-shadow: 2px 0 10px #000;
+}
+.sidebar-inner {
+	padding: 20px;
+}
+
+
+.middle-bg-color {
+	background-color: #eee;
+}
+
+.front-bg-color {
+	background-color: #888;
+}
+
+.nav-bg-color {
+	background-color: #e6e6e6;
+}
+.btn-bg-color {
+	background-color: #444;
+}
+.card-bg-color {
+	background-color: #fff;
+}
+.card-txt-color {
+	color: #000;
+}
+
+/* Footer styling */
+.footer {
+
+}
