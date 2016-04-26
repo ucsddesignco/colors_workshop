@@ -3,8 +3,10 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel='stylesheet' href='spectrum.css' />
 	<link rel="stylesheet" href="stylesheet.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src='spectrum.js'></script>
 	<script src="custom.js"></script>
 </head>
 
@@ -15,27 +17,30 @@
 		<p>Try playing around with colors to customize this site</p>
 
 		<hr>
-		Nav bgcolor: #<input type="text" id="nav-bg-color"><br>
-		Nav txtcolor: #<input type="text" id="nav-fg-color"><br>
-		Front bgcolor: #<input type="text" id="front-bg-color"><br>
-		Front txtcolor: #<input type="text" id="front-fg-color"><br>
-		Mid bgcolor: #<input type="text" id="middle-bg-color"><br>
-		<!-- Mid txtcolor: #<input type="text" id="mid-fg-color"><br> -->
-		Card bgcolor: #<input type="text" id="card-bg-color"><br>
-		Card txtcolor: #<input type="text" id="card-fg-color"><br>
-		Btn bgcolor: #<input type="text" id="btn-bg-color"><br>
-		Btn txtcolor: #<input type="text" id="btn-fg-color"><br>
+		Nav bgcolor: <input type="text" id="nav-bg-color"><br>
+		Nav txtcolor: <input type="text" id="nav-fg-color"><br>
+		Front bgcolor: <input type="text" id="front-bg-color"><br>
+		Front txtcolor: <input type="text" id="front-fg-color"><br>
+		Mid bgcolor: <input type="text" id="middle-bg-color"><br>
+		<!-- Mid txtcolor: <input type="text" id="mid-fg-color"><br> -->
+		Card bgcolor: <input type="text" id="card-bg-color"><br>
+		Card txtcolor: <input type="text" id="card-fg-color"><br>
+		Btn bgcolor: <input type="text" id="btn-bg-color"><br>
+		Btn txtcolor: <input type="text" id="btn-fg-color"><br>
+
+		<input type="button" value="Random" id="random">
 	</div>
 
 	<div style="position: absolute; bottom: 20px; left: 0; width: 100%; text-align: center;">Built with love by Design.UCSD</div>
 </div>
 <div class="container">
-	<div class="nav nav-bg-color">
+	<div class="nav nav-bg-color nav-fg-color">
 		<div class="nav-inner">
 			<div class="nav-left">
+				<input type="button" value="Toggle Sidebar" id="sidebar">
 			</div>
 
-			<div class="nav-right nav-fg-color">
+			<div class="nav-right">
 				<ul>
 					<li><a>Home</a></li>
 					<li><a>About</a></li>
@@ -53,7 +58,7 @@
 			</p>
 
 			<div class="front-buttons">
-				<a href=""><div class="btn btn-bg-color">
+				<a href="#"><div class="btn btn-bg-color">
 					<p class="btn-fg-color">CTA</p>
 				</div></a>
 
